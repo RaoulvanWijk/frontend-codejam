@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      'bg': '#FFEBC6'
+    }
   },
   plugins: [],
 }
