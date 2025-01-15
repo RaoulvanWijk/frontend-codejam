@@ -7,6 +7,8 @@ export default function Header() {
         Fill in your information to win a giftcard!!!!!Fill in your information to win a giftcard!!!!!  
       </span>   
     </div> 
+    
   );  
 }
  
+
