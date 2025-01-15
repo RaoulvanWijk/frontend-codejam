@@ -5,7 +5,7 @@ import Footter from '../components/footter'
 
 export default function EnterNamePage() {
   return (
-    <div className='bg-bg h-screen'>
+    <div className='bg-bg h-screen overflow-x-hidden'>
         <Header />
         <EnterNameForm />
         <Footter />
