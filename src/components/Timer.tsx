@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function Timer() {
-    const [timer, setTimer] = React.useState(0)
+    const [timer, setTimer] = useState<number>(0)
     useEffect(() => {
         const interval = setInterval(() => {
             setTimer((timer) => timer + 1)

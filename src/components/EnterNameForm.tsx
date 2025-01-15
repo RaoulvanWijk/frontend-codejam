@@ -1,8 +1,7 @@
-import React from 'react'
 import MouseAndCheese from '../assets/MouseAndCheese'
 
 export default function EnterNameForm() {
-  const buttonStyling = `flex justify-center items-center content-center text-5xl h-16 w-16 rounded-full bg-red-600 border-2 border-black grid-col-1`
+  const buttonStyling: string = `flex justify-center items-center content-center text-5xl h-16 w-16 rounded-full bg-red-600 border-2 border-black grid-col-1`
   return (
     <div className='flex flex-col items-center space-y-12 pt-12 px-48'>
       <p className='font-irishGrover italic text-white text-8xl font-normal border-[#3700FF] border-8 bg-[#D9D9D9] rounded-full w-[45rem] h-20 leading-10'>Your name...</p>

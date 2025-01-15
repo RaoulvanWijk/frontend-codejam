@@ -1,9 +1,9 @@
-import React from "react"
-
-export default function MouseAndCheese(props: any) {
- return (
+export default function MouseAndCheese(props: {
+    className: string
+}) {
+    return (
         <svg id="mousewithcheese" className={`${props.className}`}
-        width="253" height="202" viewBox="0 0 253 202" fill="none" xmlns="http://www.w3.org/2000/svg">
+            width="253" height="202" viewBox="0 0 253 202" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M163 91.5001C179.097 79.6605 189.674 82.0409 206 98.0002L216 98.0002C198.131 78.1355 184 69.0002 166.5 81.0002C146.995 98.442 138.178 104.421 128.5 102C135.68 109.979 143.172 107.804 163 91.5001Z" fill="#FFC4EA" />
             <path d="M250 136.5C250 159.42 231.42 178 208.5 178C185.58 178 167 159.42 167 136.5C167 113.58 185.58 95.0002 208.5 95.0002C231.42 95.0002 250 113.58 250 136.5Z" fill="#D9D9D9" />
             <path d="M240.5 156C240.5 169.255 218.941 197 209 197C199.059 197 175.5 169.255 175.5 156C175.5 142.745 199.059 149 209 149C218.941 149 240.5 142.745 240.5 156Z" fill="#D9D9D9" />
