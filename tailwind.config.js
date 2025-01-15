@@ -10,6 +10,7 @@ export default {
     extend: {
       fontFamily: {
         inspiration: ['Inspiration', 'cursive'], // Voeg je font hier toe
+        irishGrover: ['Irish Grover', 'cursive'], 
       },
     },
     colors: { 
