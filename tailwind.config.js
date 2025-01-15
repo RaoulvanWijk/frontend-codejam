@@ -11,6 +11,7 @@ export default {
       fontFamily: {
         inspiration: ['Inspiration', 'cursive'], // Voeg je font hier toe
         irishGrover: ['Irish Grover', 'cursive'], 
+        concertOne: ['Concert One', 'cursive'],
       },
     },
     colors: { 
